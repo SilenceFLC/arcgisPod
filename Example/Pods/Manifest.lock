@@ -1,0 +1,16 @@
+PODS:
+  - arcgisPod (0.1.0)
+
+DEPENDENCIES:
+  - arcgisPod (from `../`)
+
+EXTERNAL SOURCES:
+  arcgisPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  arcgisPod: a727d791a85208afb0d8f4674909b801c9f08f66
+
+PODFILE CHECKSUM: 9ccf2b55e5c1f718a405b2e670f9839865184b84
+
+COCOAPODS: 1.8.4

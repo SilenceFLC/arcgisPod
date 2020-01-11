@@ -1,0 +1,42 @@
+{
+    "version": 8,
+    "name": "tianditu",
+    "sources": {
+        "raster_src": {
+            "type": "raster",
+            "tiles": ["http://t0.tianditu.gov.cn/img_w/wmts?service=wmts&request=GetTile&version=1.0.0&LAYER=img&tileMatrixSet=w&TileMatrix={z}&TileRow={y}&TileCol={x}&style=default&format=tiles&tk=996bf15339d77d2a520225a4a6aea4b8"],
+            "tileSize": 256
+        },
+        "label_src": {
+            "type": "raster",
+            "tiles": ["http://t0.tianditu.gov.cn/DataServer?T=cia_w&x={x}&y={y}&l={z}&tk=996bf15339d77d2a520225a4a6aea4b8"],
+            "tileSize": 256
+        }
+       ,
+        "road_src": {
+            "type": "raster",
+            "tiles": ["http://t0.tianditu.gov.cn/DataServer?T=vec_w&x={x}&y={y}&l={z}&tk=996bf15339d77d2a520225a4a6aea4b8"],
+            "tileSize": 256
+        }
+        
+    },
+    "layers": [{
+        "id": "road_layer",
+        "type": "raster",
+        "source": "road_src",
+        "minzoom": 0,
+        "maxzoom": 18
+    },{
+        "id": "raster_layer",
+        "type": "raster",
+        "source": "raster_src",
+        "minzoom": 0,
+        "maxzoom": 18
+    }, {
+        "id": "label_layer",
+        "type": "raster",
+        "source": "label_src",
+        "minzoom": 0,
+        "maxzoom": 18
+    }]
+}

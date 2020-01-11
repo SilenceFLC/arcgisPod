@@ -1,0 +1,22 @@
+{
+  "name": "arcgisPod",
+  "version": "0.1.0",
+  "summary": "A short description of arcgisPod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/SilenceFLC/arcgisPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "SilenceFLC": "fenglichang@gagogroup.com"
+  },
+  "source": {
+    "git": "https://github.com/SilenceFLC/arcgisPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "arcgisPod/Classes/**/*"
+}

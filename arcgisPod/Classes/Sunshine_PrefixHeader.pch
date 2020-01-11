@@ -1,0 +1,39 @@
+//
+//  Sunshine_PrefixHeader.pch
+//  SunShineRN
+//
+//  Created by 冯立昌 on 2019/12/27.
+//  Copyright © 2019 Facebook. All rights reserved.
+//
+
+#ifndef Sunshine_PrefixHeader_pch
+#define Sunshine_PrefixHeader_pch
+#import "Colours.h"
+#import "UIColor+RGBA.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+static inline UIEdgeInsets SafeAreaInsets() {
+    static UIEdgeInsets safeAreaInsets;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        if (@available(iOS 11.0, *)) {
+            // (top = 44, left = 0, bottom = 34, right = 0)
+            UIWindow *win = [UIApplication sharedApplication].keyWindow ? : [[UIWindow alloc] init];
+            safeAreaInsets = win.safeAreaInsets;
+        } else {
+            safeAreaInsets = UIEdgeInsetsZero;
+        }
+    });
+    return safeAreaInsets;
+};
+
+#define kSafeAreaBottomHeight (SafeAreaInsets().bottom)
+#define DEVICEWIDTH [UIScreen mainScreen].bounds.size.width
+#define DEVICEHIGHT [UIScreen mainScreen].bounds.size.height-kSafeAreaBottomHeight
+#define WidthScale6(number) ([UIScreen mainScreen].bounds.size.width/375*(number))
+#define HeightScale6(number) ([UIScreen mainScreen].bounds.size.height/667*(number))
+
+#define mainStyleColor [UIColor colorFromHexString:@"3498db"]
+
+
+#endif /* Sunshine_PrefixHeader_pch */

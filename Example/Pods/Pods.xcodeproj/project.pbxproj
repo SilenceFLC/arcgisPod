@@ -1,0 +1,961 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		031F220228D7C4CAA476FA729DE43337 /* YNBStandardTaskLengendView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E7C83C79914747FD5D1CDB4063E794 /* YNBStandardTaskLengendView.m */; };
+		097BE2FE4147634AC8B07FCA532803B0 /* arcgisPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A63A5A63EE0C69B2CE0139CED8B0D59B /* arcgisPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D0889F5D09A5D2937B4356843BDE95A /* YGNStandardTaskViewController+setUpEditorStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 090650E1A8712314DCE41597BE5A3628 /* YGNStandardTaskViewController+setUpEditorStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		103F387DDC49B0E5F93D28E35A4B8D96 /* Colours.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B68896C5401BF50FFDC3B43BFEC604 /* Colours.m */; };
+		174D839426BAAEE67FB5BC458C25FBBC /* YNBStandardTaskLengendView.h in Headers */ = {isa = PBXBuildFile; fileRef = 05C1B350C9A6F0E221409F641349E846 /* YNBStandardTaskLengendView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17A9C0636E66D3DCFE999DF3DFE54EDF /* YNBMapItemView.h in Headers */ = {isa = PBXBuildFile; fileRef = DCCB4B8A3D6FC07E06A42DD0E652A0D9 /* YNBMapItemView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B7C3BDCE3742F311A99C6E5ADAC5E63 /* CRToastConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = ACBB6D50A5924B40BC274041E6D3F1CF /* CRToastConfig.m */; };
+		1BFCC3F3341BC69DD55D50A808750917 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		1C01A27599C4748BFF32E1D4A8ED84BA /* arcgisPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 577B2AFA5EC90BDF7CFB21E964BB8C1D /* arcgisPod-dummy.m */; };
+		1F0D06F413F68F56E461A1D3D9E97888 /* YGNStandardTaskViewController+drawAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 133BBE2F94A346B33E45DD57CB50A72D /* YGNStandardTaskViewController+drawAction.m */; };
+		29C8D9BCA9207FDD4C73E1B41B2F8E76 /* CRToastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE86C065905C108DF3C09CAB06F454B /* CRToastViewController.m */; };
+		2BAF6819842D4B30E348B37BD2495CA0 /* YGNStandardTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0414CDD9AE8CFD437628FB3B5826BA51 /* YGNStandardTaskViewController.m */; };
+		30E4F3116D3B1F3E28927AE8F70D779D /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 0839ADCB709FD75FCCDD5F840E751234 /* ReplaceMe.m */; };
+		3819176BD5F0A938CF3622321EB9C53A /* PrintBeautifulLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C3F792DDC05A538CE2666083162AFC /* PrintBeautifulLog.m */; };
+		38E1DE495EF4D404007A690A365212DB /* DDButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E09349D9D5E75B4C6EE5DC79891F8C3 /* DDButtonView.m */; };
+		3C5E338AE9718517AD3D88784B62D45A /* YNBLayerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2F007AD7772460635187C6FB12AACB /* YNBLayerModel.m */; };
+		3CE26AF73F575BBADB972793AC67E299 /* Colours.h in Headers */ = {isa = PBXBuildFile; fileRef = AA1D7F89F254B18B553414DED91653E0 /* Colours.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D98BDA0C2F75D8BBDD0E1C87DDAE498 /* UIColor+RGBA.h in Headers */ = {isa = PBXBuildFile; fileRef = 866D8688798894285848F043B3058D14 /* UIColor+RGBA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BC2EE13C0BEF1B230D87BE0A42F094C /* TianDiTuLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = AE34C8BBDCA14FCDE7369EB0938682FC /* TianDiTuLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E0DFCFB2A1B52D8EB74B5520744AFC0 /* YGNStandardTaskViewController+setUpEditorStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = D78754D600EEEE5D5F2D14C8A14BD43D /* YGNStandardTaskViewController+setUpEditorStyle.m */; };
+		5313F0CB6798E327FFE66A6AC4EAF47D /* TianDiTuLayerInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B3F631C318873464B5B1E954B9D2D99 /* TianDiTuLayerInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		549EFB6AB6883942CBABCE1F38626E60 /* YNBMapToolsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4511521CDE125B5081B074DB60DC2E0E /* YNBMapToolsView.m */; };
+		5615B5EF25FD7212D61BAD625E4AFA9F /* YNBGeometryUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = A0EC0C3261685B54387AAD50FDC48398 /* YNBGeometryUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CA55829FCB18023A7AA33C47A657BE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		5D2E41F776101C49FEE931E0C16758EA /* DDButtonView.h in Headers */ = {isa = PBXBuildFile; fileRef = 284F394394C1AF10C8217335816B4A3B /* DDButtonView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60389767300DF0228ABC55069A3694F0 /* CRToastLayoutHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = C59C25A5BD6594240F4CECA509E93A7B /* CRToastLayoutHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62617F859E6B1D675F74D280006ADE3D /* CRToastWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 26602EBDE872F2ECFB2A86A7B672EF8D /* CRToastWindow.m */; };
+		64586B27A0896B69C0EBA10F8D573845 /* YNBLayerModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 5308E243F1D624B9186BB0E190D254C0 /* YNBLayerModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A86F91A39CB73E202D3BA2845BA3D9D /* CRToastViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 30FD66502380F9C34C763F634F930899 /* CRToastViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71C54B67CAC533812A5289C7DBE263FC /* NSObject+XKController.h in Headers */ = {isa = PBXBuildFile; fileRef = EB2DA8BF3F6C47B3354ED4CA3E1B349E /* NSObject+XKController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74B9B22AB9D06933DC61560F4BD714C1 /* YGNStandardTaskViewController+drawAction.h in Headers */ = {isa = PBXBuildFile; fileRef = B13ED8377D989D481D008940F2AEEF41 /* YGNStandardTaskViewController+drawAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CD2F1BD432B2C03B8098E21B0122AAC /* CRToastWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = F00C91A149C02A1B0034C8A8BB63BD5F /* CRToastWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E07E1156A55CB28CECA08BF28C277BA /* PrintBeautifulLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CCF95ACB619951868F5190D08FDFF3B /* PrintBeautifulLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8392766AEB8C06B450894C876AF2EA2D /* YNBMapToolsView.h in Headers */ = {isa = PBXBuildFile; fileRef = 52166E7D1BAD15537CCB6CB56947CB7D /* YNBMapToolsView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B7F0D127329AC44478E58A731F0A6F2 /* YGNStandardTaskViewController+SetupSubviews.h in Headers */ = {isa = PBXBuildFile; fileRef = 53A23321E52292A823A77542046EF06F /* YGNStandardTaskViewController+SetupSubviews.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A018AD7E94438A34AE0EB871C56D81BF /* YNBStandardToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5C8357071F7335932BE7D6B77717FD /* YNBStandardToolView.m */; };
+		A1EAA5C4BAF356659405C32E311B4B80 /* YGNStandardTaskViewController+SetupSubviews.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7DAEE8E4F300FB1895FB6223693434 /* YGNStandardTaskViewController+SetupSubviews.m */; };
+		A2CCE39624B77A4D0C0BD510BF09D6DD /* tianditu.json in Sources */ = {isa = PBXBuildFile; fileRef = 70091EF6844BB0610174B98A63F42F53 /* tianditu.json */; };
+		A530826803D52371DB853E2797F630F1 /* Pods-arcgisPod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E2FC5D125C55747F282864FD4A493E /* Pods-arcgisPod_Tests-dummy.m */; };
+		A99E3D7B13B5F70EBA77DB81C40B623B /* YNBGeometryUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = E7848C55089B21E232B0FCC81FA51EDB /* YNBGeometryUtil.m */; };
+		AA2A1573A60EF20F9B8101176B106E21 /* UIColor+RGBA.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9E0BAF2A2144B90A4A03E55B451490 /* UIColor+RGBA.m */; };
+		B0CBF2628BBC8D1FCC379E33E718A7D1 /* CRToastConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = AAA3774463BBBE70069A66DCEAAA58C0 /* CRToastConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1FEC39836045953ACEC3874B1012A4F /* Pods-arcgisPod_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 815EEFEE1E25F1005FE7C2A77685A7BC /* Pods-arcgisPod_Example-dummy.m */; };
+		B7CE2925285804009B7B86972D9C4142 /* CRToastView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BDCD01FA4BB754B4202F0083B9CC046 /* CRToastView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8059022DBC6EAA66501C059EB01E1A4 /* CRToastManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A5D396EF3299622ECDD3FC3792E04BB4 /* CRToastManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C11CDCB2E16B22FFE0DC2D936C1B58FE /* Pods-arcgisPod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74CF1B469AA3CB1D8868D9DD031080E5 /* Pods-arcgisPod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2F64DADDCEAA5A1B47C6D65DA8A6B2D /* CRToastManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F41EC09E29CFA59BA979DFAD47BB6B1 /* CRToastManager.m */; };
+		C4C9969A0A13E7B9879FD845CA5D829D /* CRToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB1101895D98CF7FEE6A319A5885937 /* CRToastView.m */; };
+		C57D5454C296C80CC16E59897E1F71D8 /* YNBStandardToolView.h in Headers */ = {isa = PBXBuildFile; fileRef = 82C6F9A7F0FA2A0885DF8CDCA400A985 /* YNBStandardToolView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9DF6A1656507C6A152926CBB3987023 /* YNBMapItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F197B4D32B04E312BEB2CDB3C74CBD /* YNBMapItemView.m */; };
+		CD05818EE53920F9308A8AA113A7A816 /* NSObject+XKController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFDCDFBCB10482EDB0BF2B1EAB10A59 /* NSObject+XKController.m */; };
+		CDB64B95A0F44F000C92DA9E6671D1D5 /* TianDiTuLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E82E779A57C398721C38F2E9B765378C /* TianDiTuLayer.m */; };
+		D25BEDFBDF5C063ACFEA7CFD0B0B7917 /* TianDiTuLayerInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CC7E7EC3D6E7D2A15084C015280D7F /* TianDiTuLayerInfo.m */; };
+		DBACA0C6EE243D4924CB99044385EE68 /* YGNStandardTaskViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E64753AD0F66CDC2DC516961C1075F5F /* YGNStandardTaskViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD9B574CED25B0EFEFFE6EE20B450BD3 /* Pods-arcgisPod_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 866DAAC48CA7CA4837706150CB00BD8F /* Pods-arcgisPod_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB59C2F493F8F345E357CDEE1B8D5860 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F305DA9F0B2247C7F066BB65D3FD86DA /* CRToast.h in Headers */ = {isa = PBXBuildFile; fileRef = 09013F01186F0B1E344D155FB1DB844E /* CRToast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3EA933A281C92791E16BCFC35FB15A2 /* Sunshine_PrefixHeader.pch in Sources */ = {isa = PBXBuildFile; fileRef = D501A4FDD1036878F3F4FA6C017C3B7A /* Sunshine_PrefixHeader.pch */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31F266A2FEBE6AC5E37A92C0D25C0A42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84BDD0289EC552A9883CD0BBBD37CD49;
+			remoteInfo = arcgisPod;
+		};
+		7DC668260C68A188186458B0E2AE6F92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CABDB1AC2BED030E1BD33CD2FB7007C3;
+			remoteInfo = "Pods-arcgisPod_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0414CDD9AE8CFD437628FB3B5826BA51 /* YGNStandardTaskViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YGNStandardTaskViewController.m; path = arcgisPod/Classes/YGNStandardTaskViewController.m; sourceTree = "<group>"; };
+		05C1B350C9A6F0E221409F641349E846 /* YNBStandardTaskLengendView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YNBStandardTaskLengendView.h; path = arcgisPod/Classes/YNBStandardTaskLengendView.h; sourceTree = "<group>"; };
+		0839ADCB709FD75FCCDD5F840E751234 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = arcgisPod/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		09013F01186F0B1E344D155FB1DB844E /* CRToast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CRToast.h; path = arcgisPod/Classes/CRToast.h; sourceTree = "<group>"; };
+		090650E1A8712314DCE41597BE5A3628 /* YGNStandardTaskViewController+setUpEditorStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "YGNStandardTaskViewController+setUpEditorStyle.h"; path = "arcgisPod/Classes/YGNStandardTaskViewController+setUpEditorStyle.h"; sourceTree = "<group>"; };
+		133BBE2F94A346B33E45DD57CB50A72D /* YGNStandardTaskViewController+drawAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "YGNStandardTaskViewController+drawAction.m"; path = "arcgisPod/Classes/YGNStandardTaskViewController+drawAction.m"; sourceTree = "<group>"; };
+		1B3F631C318873464B5B1E954B9D2D99 /* TianDiTuLayerInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TianDiTuLayerInfo.h; path = arcgisPod/Classes/TianDiTuLayerInfo.h; sourceTree = "<group>"; };
+		1BDCD01FA4BB754B4202F0083B9CC046 /* CRToastView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CRToastView.h; path = arcgisPod/Classes/CRToastView.h; sourceTree = "<group>"; };
+		22CC7E7EC3D6E7D2A15084C015280D7F /* TianDiTuLayerInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TianDiTuLayerInfo.m; path = arcgisPod/Classes/TianDiTuLayerInfo.m; sourceTree = "<group>"; };
+		24FEB13AF8D317B432B15B02E30D901B /* arcgisPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "arcgisPod-prefix.pch"; sourceTree = "<group>"; };
+		25C3F792DDC05A538CE2666083162AFC /* PrintBeautifulLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PrintBeautifulLog.m; path = arcgisPod/Classes/PrintBeautifulLog.m; sourceTree = "<group>"; };
+		26602EBDE872F2ECFB2A86A7B672EF8D /* CRToastWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CRToastWindow.m; path = arcgisPod/Classes/CRToastWindow.m; sourceTree = "<group>"; };
+		284F394394C1AF10C8217335816B4A3B /* DDButtonView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDButtonView.h; path = arcgisPod/Classes/DDButtonView.h; sourceTree = "<group>"; };
+		30FD66502380F9C34C763F634F930899 /* CRToastViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CRToastViewController.h; path = arcgisPod/Classes/CRToastViewController.h; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		348DFE3B1FEA16FE9CF6F073596BE253 /* Pods-arcgisPod_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-arcgisPod_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3CCF95ACB619951868F5190D08FDFF3B /* PrintBeautifulLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PrintBeautifulLog.h; path = arcgisPod/Classes/PrintBeautifulLog.h; sourceTree = "<group>"; };
+		3E9E0BAF2A2144B90A4A03E55B451490 /* UIColor+RGBA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+RGBA.m"; path = "arcgisPod/Classes/UIColor+RGBA.m"; sourceTree = "<group>"; };
+		4511521CDE125B5081B074DB60DC2E0E /* YNBMapToolsView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YNBMapToolsView.m; path = arcgisPod/Classes/YNBMapToolsView.m; sourceTree = "<group>"; };
+		4A5C8357071F7335932BE7D6B77717FD /* YNBStandardToolView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YNBStandardToolView.m; path = arcgisPod/Classes/YNBStandardToolView.m; sourceTree = "<group>"; };
+		4DF47236E320585A599E74669605565B /* arcgisPod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = arcgisPod.xcconfig; sourceTree = "<group>"; };
+		4F29217D6A00E0C9A0708AFEB1AA326A /* Pods-arcgisPod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-arcgisPod_Tests.modulemap"; sourceTree = "<group>"; };
+		4F2F007AD7772460635187C6FB12AACB /* YNBLayerModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YNBLayerModel.m; path = arcgisPod/Classes/YNBLayerModel.m; sourceTree = "<group>"; };
+		52166E7D1BAD15537CCB6CB56947CB7D /* YNBMapToolsView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YNBMapToolsView.h; path = arcgisPod/Classes/YNBMapToolsView.h; sourceTree = "<group>"; };
+		5308E243F1D624B9186BB0E190D254C0 /* YNBLayerModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YNBLayerModel.h; path = arcgisPod/Classes/YNBLayerModel.h; sourceTree = "<group>"; };
+		53A23321E52292A823A77542046EF06F /* YGNStandardTaskViewController+SetupSubviews.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "YGNStandardTaskViewController+SetupSubviews.h"; path = "arcgisPod/Classes/YGNStandardTaskViewController+SetupSubviews.h"; sourceTree = "<group>"; };
+		577B2AFA5EC90BDF7CFB21E964BB8C1D /* arcgisPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "arcgisPod-dummy.m"; sourceTree = "<group>"; };
+		5D234A825C574AEF579782252E4C55DD /* arcgisPod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "arcgisPod-Info.plist"; sourceTree = "<group>"; };
+		6529585F6F4CEE440CF8A709264CB7BA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6667635FDBE3B87664E4B3E17231B6E9 /* Pods-arcgisPod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-arcgisPod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		66F197B4D32B04E312BEB2CDB3C74CBD /* YNBMapItemView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YNBMapItemView.m; path = arcgisPod/Classes/YNBMapItemView.m; sourceTree = "<group>"; };
+		6DCACFCCB8BC8C9285A9A5DA351D5CD9 /* arcgisPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = arcgisPod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6F7DAEE8E4F300FB1895FB6223693434 /* YGNStandardTaskViewController+SetupSubviews.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "YGNStandardTaskViewController+SetupSubviews.m"; path = "arcgisPod/Classes/YGNStandardTaskViewController+SetupSubviews.m"; sourceTree = "<group>"; };
+		70091EF6844BB0610174B98A63F42F53 /* tianditu.json */ = {isa = PBXFileReference; includeInIndex = 1; name = tianditu.json; path = arcgisPod/Classes/tianditu.json; sourceTree = "<group>"; };
+		74CF1B469AA3CB1D8868D9DD031080E5 /* Pods-arcgisPod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-arcgisPod_Tests-umbrella.h"; sourceTree = "<group>"; };
+		7582315040FE552F7789A29090351F2B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7E09349D9D5E75B4C6EE5DC79891F8C3 /* DDButtonView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDButtonView.m; path = arcgisPod/Classes/DDButtonView.m; sourceTree = "<group>"; };
+		80100ED88AC709DDBBE99BC7B5DED83E /* arcgisPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = arcgisPod.modulemap; sourceTree = "<group>"; };
+		815EEFEE1E25F1005FE7C2A77685A7BC /* Pods-arcgisPod_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-arcgisPod_Example-dummy.m"; sourceTree = "<group>"; };
+		82C6F9A7F0FA2A0885DF8CDCA400A985 /* YNBStandardToolView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YNBStandardToolView.h; path = arcgisPod/Classes/YNBStandardToolView.h; sourceTree = "<group>"; };
+		866D8688798894285848F043B3058D14 /* UIColor+RGBA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+RGBA.h"; path = "arcgisPod/Classes/UIColor+RGBA.h"; sourceTree = "<group>"; };
+		866DAAC48CA7CA4837706150CB00BD8F /* Pods-arcgisPod_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-arcgisPod_Example-umbrella.h"; sourceTree = "<group>"; };
+		8BE86C065905C108DF3C09CAB06F454B /* CRToastViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CRToastViewController.m; path = arcgisPod/Classes/CRToastViewController.m; sourceTree = "<group>"; };
+		9280F86E4E021486DEB1C2E981D16979 /* Pods_arcgisPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_arcgisPod_Tests.framework; path = "Pods-arcgisPod_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C57877AE269645EB33F879671495AAC /* Pods-arcgisPod_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-arcgisPod_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E14378E839BFBEFDAB23235CC65A866 /* Pods-arcgisPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-arcgisPod_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9F41EC09E29CFA59BA979DFAD47BB6B1 /* CRToastManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CRToastManager.m; path = arcgisPod/Classes/CRToastManager.m; sourceTree = "<group>"; };
+		A0EC0C3261685B54387AAD50FDC48398 /* YNBGeometryUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YNBGeometryUtil.h; path = arcgisPod/Classes/YNBGeometryUtil.h; sourceTree = "<group>"; };
+		A3B68896C5401BF50FFDC3B43BFEC604 /* Colours.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Colours.m; path = arcgisPod/Classes/Colours.m; sourceTree = "<group>"; };
+		A5D396EF3299622ECDD3FC3792E04BB4 /* CRToastManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CRToastManager.h; path = arcgisPod/Classes/CRToastManager.h; sourceTree = "<group>"; };
+		A63A5A63EE0C69B2CE0139CED8B0D59B /* arcgisPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "arcgisPod-umbrella.h"; sourceTree = "<group>"; };
+		AA1D7F89F254B18B553414DED91653E0 /* Colours.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Colours.h; path = arcgisPod/Classes/Colours.h; sourceTree = "<group>"; };
+		AAA3774463BBBE70069A66DCEAAA58C0 /* CRToastConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CRToastConfig.h; path = arcgisPod/Classes/CRToastConfig.h; sourceTree = "<group>"; };
+		ACBB6D50A5924B40BC274041E6D3F1CF /* CRToastConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CRToastConfig.m; path = arcgisPod/Classes/CRToastConfig.m; sourceTree = "<group>"; };
+		AE34C8BBDCA14FCDE7369EB0938682FC /* TianDiTuLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TianDiTuLayer.h; path = arcgisPod/Classes/TianDiTuLayer.h; sourceTree = "<group>"; };
+		B13ED8377D989D481D008940F2AEEF41 /* YGNStandardTaskViewController+drawAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "YGNStandardTaskViewController+drawAction.h"; path = "arcgisPod/Classes/YGNStandardTaskViewController+drawAction.h"; sourceTree = "<group>"; };
+		B4E2FC5D125C55747F282864FD4A493E /* Pods-arcgisPod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-arcgisPod_Tests-dummy.m"; sourceTree = "<group>"; };
+		B6711CC04AB66B01B278D3C6C965F696 /* Pods-arcgisPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-arcgisPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BEB1101895D98CF7FEE6A319A5885937 /* CRToastView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CRToastView.m; path = arcgisPod/Classes/CRToastView.m; sourceTree = "<group>"; };
+		BFFDCDFBCB10482EDB0BF2B1EAB10A59 /* NSObject+XKController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+XKController.m"; path = "arcgisPod/Classes/NSObject+XKController.m"; sourceTree = "<group>"; };
+		C2879C56CAB0EA3EA43F260377715CDA /* Pods-arcgisPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-arcgisPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C59C25A5BD6594240F4CECA509E93A7B /* CRToastLayoutHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CRToastLayoutHelpers.h; path = arcgisPod/Classes/CRToastLayoutHelpers.h; sourceTree = "<group>"; };
+		D1E7C83C79914747FD5D1CDB4063E794 /* YNBStandardTaskLengendView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YNBStandardTaskLengendView.m; path = arcgisPod/Classes/YNBStandardTaskLengendView.m; sourceTree = "<group>"; };
+		D501A4FDD1036878F3F4FA6C017C3B7A /* Sunshine_PrefixHeader.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Sunshine_PrefixHeader.pch; path = arcgisPod/Classes/Sunshine_PrefixHeader.pch; sourceTree = "<group>"; };
+		D78754D600EEEE5D5F2D14C8A14BD43D /* YGNStandardTaskViewController+setUpEditorStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "YGNStandardTaskViewController+setUpEditorStyle.m"; path = "arcgisPod/Classes/YGNStandardTaskViewController+setUpEditorStyle.m"; sourceTree = "<group>"; };
+		DA1EA78F3C57566395559C9715C8A541 /* arcgisPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = arcgisPod.framework; path = arcgisPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCCB4B8A3D6FC07E06A42DD0E652A0D9 /* YNBMapItemView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YNBMapItemView.h; path = arcgisPod/Classes/YNBMapItemView.h; sourceTree = "<group>"; };
+		E64753AD0F66CDC2DC516961C1075F5F /* YGNStandardTaskViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YGNStandardTaskViewController.h; path = arcgisPod/Classes/YGNStandardTaskViewController.h; sourceTree = "<group>"; };
+		E7848C55089B21E232B0FCC81FA51EDB /* YNBGeometryUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YNBGeometryUtil.m; path = arcgisPod/Classes/YNBGeometryUtil.m; sourceTree = "<group>"; };
+		E82E779A57C398721C38F2E9B765378C /* TianDiTuLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TianDiTuLayer.m; path = arcgisPod/Classes/TianDiTuLayer.m; sourceTree = "<group>"; };
+		EA234E85C9BAB84F3DE068B22D2C512B /* Pods-arcgisPod_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-arcgisPod_Tests-Info.plist"; sourceTree = "<group>"; };
+		EB2DA8BF3F6C47B3354ED4CA3E1B349E /* NSObject+XKController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+XKController.h"; path = "arcgisPod/Classes/NSObject+XKController.h"; sourceTree = "<group>"; };
+		EDAECC928D5D7F05F44E519694092A69 /* Pods-arcgisPod_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-arcgisPod_Example-Info.plist"; sourceTree = "<group>"; };
+		F00C91A149C02A1B0034C8A8BB63BD5F /* CRToastWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CRToastWindow.h; path = arcgisPod/Classes/CRToastWindow.h; sourceTree = "<group>"; };
+		F04852A03ED8D477427549CEDF6EC31D /* Pods-arcgisPod_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-arcgisPod_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F149D512A2D54D118E41969B51134EE2 /* Pods-arcgisPod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-arcgisPod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F8DE4DF032B419EF69D374DD615D8373 /* Pods-arcgisPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-arcgisPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FA1278C22AC428800C5828A0C85ACD02 /* Pods-arcgisPod_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-arcgisPod_Example.modulemap"; sourceTree = "<group>"; };
+		FFD275C9116ED34F5A44AB7DEBB673E3 /* Pods_arcgisPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_arcgisPod_Example.framework; path = "Pods-arcgisPod_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A1CB15423AC9A4153B30B36634E1702 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA55829FCB18023A7AA33C47A657BE5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		583B84960B4F751FAC64CB3EDC0834F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BFCC3F3341BC69DD55D50A808750917 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D5EE15E0E687B5BD598180118DA9B70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB59C2F493F8F345E357CDEE1B8D5860 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		055780B60CE7DD9C58EE21858B7FD4D4 /* Pods-arcgisPod_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4F29217D6A00E0C9A0708AFEB1AA326A /* Pods-arcgisPod_Tests.modulemap */,
+				6667635FDBE3B87664E4B3E17231B6E9 /* Pods-arcgisPod_Tests-acknowledgements.markdown */,
+				F149D512A2D54D118E41969B51134EE2 /* Pods-arcgisPod_Tests-acknowledgements.plist */,
+				B4E2FC5D125C55747F282864FD4A493E /* Pods-arcgisPod_Tests-dummy.m */,
+				EA234E85C9BAB84F3DE068B22D2C512B /* Pods-arcgisPod_Tests-Info.plist */,
+				74CF1B469AA3CB1D8868D9DD031080E5 /* Pods-arcgisPod_Tests-umbrella.h */,
+				F8DE4DF032B419EF69D374DD615D8373 /* Pods-arcgisPod_Tests.debug.xcconfig */,
+				C2879C56CAB0EA3EA43F260377715CDA /* Pods-arcgisPod_Tests.release.xcconfig */,
+			);
+			name = "Pods-arcgisPod_Tests";
+			path = "Target Support Files/Pods-arcgisPod_Tests";
+			sourceTree = "<group>";
+		};
+		3BCF5843943219856F111379061F44C4 /* Pods-arcgisPod_Example */ = {
+			isa = PBXGroup;
+			children = (
+				FA1278C22AC428800C5828A0C85ACD02 /* Pods-arcgisPod_Example.modulemap */,
+				F04852A03ED8D477427549CEDF6EC31D /* Pods-arcgisPod_Example-acknowledgements.markdown */,
+				348DFE3B1FEA16FE9CF6F073596BE253 /* Pods-arcgisPod_Example-acknowledgements.plist */,
+				815EEFEE1E25F1005FE7C2A77685A7BC /* Pods-arcgisPod_Example-dummy.m */,
+				9C57877AE269645EB33F879671495AAC /* Pods-arcgisPod_Example-frameworks.sh */,
+				EDAECC928D5D7F05F44E519694092A69 /* Pods-arcgisPod_Example-Info.plist */,
+				866DAAC48CA7CA4837706150CB00BD8F /* Pods-arcgisPod_Example-umbrella.h */,
+				B6711CC04AB66B01B278D3C6C965F696 /* Pods-arcgisPod_Example.debug.xcconfig */,
+				9E14378E839BFBEFDAB23235CC65A866 /* Pods-arcgisPod_Example.release.xcconfig */,
+			);
+			name = "Pods-arcgisPod_Example";
+			path = "Target Support Files/Pods-arcgisPod_Example";
+			sourceTree = "<group>";
+		};
+		93133F42B4EE9CACBD2BE8435730A499 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA1EA78F3C57566395559C9715C8A541 /* arcgisPod.framework */,
+				FFD275C9116ED34F5A44AB7DEBB673E3 /* Pods_arcgisPod_Example.framework */,
+				9280F86E4E021486DEB1C2E981D16979 /* Pods_arcgisPod_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D01E93D6E216A996C1B17BDCB19BD08 /* arcgisPod */ = {
+			isa = PBXGroup;
+			children = (
+				AA1D7F89F254B18B553414DED91653E0 /* Colours.h */,
+				A3B68896C5401BF50FFDC3B43BFEC604 /* Colours.m */,
+				09013F01186F0B1E344D155FB1DB844E /* CRToast.h */,
+				AAA3774463BBBE70069A66DCEAAA58C0 /* CRToastConfig.h */,
+				ACBB6D50A5924B40BC274041E6D3F1CF /* CRToastConfig.m */,
+				C59C25A5BD6594240F4CECA509E93A7B /* CRToastLayoutHelpers.h */,
+				A5D396EF3299622ECDD3FC3792E04BB4 /* CRToastManager.h */,
+				9F41EC09E29CFA59BA979DFAD47BB6B1 /* CRToastManager.m */,
+				1BDCD01FA4BB754B4202F0083B9CC046 /* CRToastView.h */,
+				BEB1101895D98CF7FEE6A319A5885937 /* CRToastView.m */,
+				30FD66502380F9C34C763F634F930899 /* CRToastViewController.h */,
+				8BE86C065905C108DF3C09CAB06F454B /* CRToastViewController.m */,
+				F00C91A149C02A1B0034C8A8BB63BD5F /* CRToastWindow.h */,
+				26602EBDE872F2ECFB2A86A7B672EF8D /* CRToastWindow.m */,
+				284F394394C1AF10C8217335816B4A3B /* DDButtonView.h */,
+				7E09349D9D5E75B4C6EE5DC79891F8C3 /* DDButtonView.m */,
+				EB2DA8BF3F6C47B3354ED4CA3E1B349E /* NSObject+XKController.h */,
+				BFFDCDFBCB10482EDB0BF2B1EAB10A59 /* NSObject+XKController.m */,
+				3CCF95ACB619951868F5190D08FDFF3B /* PrintBeautifulLog.h */,
+				25C3F792DDC05A538CE2666083162AFC /* PrintBeautifulLog.m */,
+				0839ADCB709FD75FCCDD5F840E751234 /* ReplaceMe.m */,
+				D501A4FDD1036878F3F4FA6C017C3B7A /* Sunshine_PrefixHeader.pch */,
+				70091EF6844BB0610174B98A63F42F53 /* tianditu.json */,
+				AE34C8BBDCA14FCDE7369EB0938682FC /* TianDiTuLayer.h */,
+				E82E779A57C398721C38F2E9B765378C /* TianDiTuLayer.m */,
+				1B3F631C318873464B5B1E954B9D2D99 /* TianDiTuLayerInfo.h */,
+				22CC7E7EC3D6E7D2A15084C015280D7F /* TianDiTuLayerInfo.m */,
+				866D8688798894285848F043B3058D14 /* UIColor+RGBA.h */,
+				3E9E0BAF2A2144B90A4A03E55B451490 /* UIColor+RGBA.m */,
+				E64753AD0F66CDC2DC516961C1075F5F /* YGNStandardTaskViewController.h */,
+				0414CDD9AE8CFD437628FB3B5826BA51 /* YGNStandardTaskViewController.m */,
+				B13ED8377D989D481D008940F2AEEF41 /* YGNStandardTaskViewController+drawAction.h */,
+				133BBE2F94A346B33E45DD57CB50A72D /* YGNStandardTaskViewController+drawAction.m */,
+				090650E1A8712314DCE41597BE5A3628 /* YGNStandardTaskViewController+setUpEditorStyle.h */,
+				D78754D600EEEE5D5F2D14C8A14BD43D /* YGNStandardTaskViewController+setUpEditorStyle.m */,
+				53A23321E52292A823A77542046EF06F /* YGNStandardTaskViewController+SetupSubviews.h */,
+				6F7DAEE8E4F300FB1895FB6223693434 /* YGNStandardTaskViewController+SetupSubviews.m */,
+				A0EC0C3261685B54387AAD50FDC48398 /* YNBGeometryUtil.h */,
+				E7848C55089B21E232B0FCC81FA51EDB /* YNBGeometryUtil.m */,
+				5308E243F1D624B9186BB0E190D254C0 /* YNBLayerModel.h */,
+				4F2F007AD7772460635187C6FB12AACB /* YNBLayerModel.m */,
+				DCCB4B8A3D6FC07E06A42DD0E652A0D9 /* YNBMapItemView.h */,
+				66F197B4D32B04E312BEB2CDB3C74CBD /* YNBMapItemView.m */,
+				52166E7D1BAD15537CCB6CB56947CB7D /* YNBMapToolsView.h */,
+				4511521CDE125B5081B074DB60DC2E0E /* YNBMapToolsView.m */,
+				05C1B350C9A6F0E221409F641349E846 /* YNBStandardTaskLengendView.h */,
+				D1E7C83C79914747FD5D1CDB4063E794 /* YNBStandardTaskLengendView.m */,
+				82C6F9A7F0FA2A0885DF8CDCA400A985 /* YNBStandardToolView.h */,
+				4A5C8357071F7335932BE7D6B77717FD /* YNBStandardToolView.m */,
+				DBB57FBD745EF524CF6A195B67CF5749 /* Pod */,
+				B3BC622E51C704A957E368F4CBCCA521 /* Support Files */,
+			);
+			name = arcgisPod;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9D336B2463CA653B39E0CDBA5AA3ABE7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BCF5843943219856F111379061F44C4 /* Pods-arcgisPod_Example */,
+				055780B60CE7DD9C58EE21858B7FD4D4 /* Pods-arcgisPod_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B3BC622E51C704A957E368F4CBCCA521 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				80100ED88AC709DDBBE99BC7B5DED83E /* arcgisPod.modulemap */,
+				4DF47236E320585A599E74669605565B /* arcgisPod.xcconfig */,
+				577B2AFA5EC90BDF7CFB21E964BB8C1D /* arcgisPod-dummy.m */,
+				5D234A825C574AEF579782252E4C55DD /* arcgisPod-Info.plist */,
+				24FEB13AF8D317B432B15B02E30D901B /* arcgisPod-prefix.pch */,
+				A63A5A63EE0C69B2CE0139CED8B0D59B /* arcgisPod-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/arcgisPod";
+			sourceTree = "<group>";
+		};
+		BECD918C6A2F2CC81B851ADB67857C44 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D01E93D6E216A996C1B17BDCB19BD08 /* arcgisPod */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				BECD918C6A2F2CC81B851ADB67857C44 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				93133F42B4EE9CACBD2BE8435730A499 /* Products */,
+				9D336B2463CA653B39E0CDBA5AA3ABE7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DBB57FBD745EF524CF6A195B67CF5749 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6DCACFCCB8BC8C9285A9A5DA351D5CD9 /* arcgisPod.podspec */,
+				6529585F6F4CEE440CF8A709264CB7BA /* LICENSE */,
+				7582315040FE552F7789A29090351F2B /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1DAEB9F0699B9CDFCFC84AA90D9B58E7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD9B574CED25B0EFEFFE6EE20B450BD3 /* Pods-arcgisPod_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E638E8BAB23189EBBDFD6CBD8B65ADE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C11CDCB2E16B22FFE0DC2D936C1B58FE /* Pods-arcgisPod_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F196637D1C18E490C0E8782856CED95D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				097BE2FE4147634AC8B07FCA532803B0 /* arcgisPod-umbrella.h in Headers */,
+				3CE26AF73F575BBADB972793AC67E299 /* Colours.h in Headers */,
+				F305DA9F0B2247C7F066BB65D3FD86DA /* CRToast.h in Headers */,
+				B0CBF2628BBC8D1FCC379E33E718A7D1 /* CRToastConfig.h in Headers */,
+				60389767300DF0228ABC55069A3694F0 /* CRToastLayoutHelpers.h in Headers */,
+				B8059022DBC6EAA66501C059EB01E1A4 /* CRToastManager.h in Headers */,
+				B7CE2925285804009B7B86972D9C4142 /* CRToastView.h in Headers */,
+				6A86F91A39CB73E202D3BA2845BA3D9D /* CRToastViewController.h in Headers */,
+				7CD2F1BD432B2C03B8098E21B0122AAC /* CRToastWindow.h in Headers */,
+				5D2E41F776101C49FEE931E0C16758EA /* DDButtonView.h in Headers */,
+				71C54B67CAC533812A5289C7DBE263FC /* NSObject+XKController.h in Headers */,
+				7E07E1156A55CB28CECA08BF28C277BA /* PrintBeautifulLog.h in Headers */,
+				4BC2EE13C0BEF1B230D87BE0A42F094C /* TianDiTuLayer.h in Headers */,
+				5313F0CB6798E327FFE66A6AC4EAF47D /* TianDiTuLayerInfo.h in Headers */,
+				3D98BDA0C2F75D8BBDD0E1C87DDAE498 /* UIColor+RGBA.h in Headers */,
+				74B9B22AB9D06933DC61560F4BD714C1 /* YGNStandardTaskViewController+drawAction.h in Headers */,
+				0D0889F5D09A5D2937B4356843BDE95A /* YGNStandardTaskViewController+setUpEditorStyle.h in Headers */,
+				8B7F0D127329AC44478E58A731F0A6F2 /* YGNStandardTaskViewController+SetupSubviews.h in Headers */,
+				DBACA0C6EE243D4924CB99044385EE68 /* YGNStandardTaskViewController.h in Headers */,
+				5615B5EF25FD7212D61BAD625E4AFA9F /* YNBGeometryUtil.h in Headers */,
+				64586B27A0896B69C0EBA10F8D573845 /* YNBLayerModel.h in Headers */,
+				17A9C0636E66D3DCFE999DF3DFE54EDF /* YNBMapItemView.h in Headers */,
+				8392766AEB8C06B450894C876AF2EA2D /* YNBMapToolsView.h in Headers */,
+				174D839426BAAEE67FB5BC458C25FBBC /* YNBStandardTaskLengendView.h in Headers */,
+				C57D5454C296C80CC16E59897E1F71D8 /* YNBStandardToolView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		84BDD0289EC552A9883CD0BBBD37CD49 /* arcgisPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E01AEBA098159F6F64D82F9B9448D4E0 /* Build configuration list for PBXNativeTarget "arcgisPod" */;
+			buildPhases = (
+				F196637D1C18E490C0E8782856CED95D /* Headers */,
+				981A85C5DB30183969BA20CCB440C8F5 /* Sources */,
+				2A1CB15423AC9A4153B30B36634E1702 /* Frameworks */,
+				5AB2166FE948A372ED319647F7EBA5F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = arcgisPod;
+			productName = arcgisPod;
+			productReference = DA1EA78F3C57566395559C9715C8A541 /* arcgisPod.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CABDB1AC2BED030E1BD33CD2FB7007C3 /* Pods-arcgisPod_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 179EC09E9EE4C0ECFE40EBA4D6B04B72 /* Build configuration list for PBXNativeTarget "Pods-arcgisPod_Example" */;
+			buildPhases = (
+				1DAEB9F0699B9CDFCFC84AA90D9B58E7 /* Headers */,
+				9AE96211668DD4474ED8E73ECA092905 /* Sources */,
+				5D5EE15E0E687B5BD598180118DA9B70 /* Frameworks */,
+				1510A34A7C97DAB128EF0C4AA2A61F0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20EF0B09457566B5F87B9EF37DB3A7BA /* PBXTargetDependency */,
+			);
+			name = "Pods-arcgisPod_Example";
+			productName = "Pods-arcgisPod_Example";
+			productReference = FFD275C9116ED34F5A44AB7DEBB673E3 /* Pods_arcgisPod_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E12FF8F18C97B2D05DF575EBEB9A526E /* Pods-arcgisPod_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8948C113AF29D1EEA883001D53FFE64 /* Build configuration list for PBXNativeTarget "Pods-arcgisPod_Tests" */;
+			buildPhases = (
+				9E638E8BAB23189EBBDFD6CBD8B65ADE /* Headers */,
+				7D6914FE521001DC2AB5D2F143F36575 /* Sources */,
+				583B84960B4F751FAC64CB3EDC0834F9 /* Frameworks */,
+				E49B36755668F2A65700FE3E4969A928 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E58DE33C9E45E9E5A009477FAC8B2173 /* PBXTargetDependency */,
+			);
+			name = "Pods-arcgisPod_Tests";
+			productName = "Pods-arcgisPod_Tests";
+			productReference = 9280F86E4E021486DEB1C2E981D16979 /* Pods_arcgisPod_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 93133F42B4EE9CACBD2BE8435730A499 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84BDD0289EC552A9883CD0BBBD37CD49 /* arcgisPod */,
+				CABDB1AC2BED030E1BD33CD2FB7007C3 /* Pods-arcgisPod_Example */,
+				E12FF8F18C97B2D05DF575EBEB9A526E /* Pods-arcgisPod_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1510A34A7C97DAB128EF0C4AA2A61F0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AB2166FE948A372ED319647F7EBA5F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E49B36755668F2A65700FE3E4969A928 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D6914FE521001DC2AB5D2F143F36575 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A530826803D52371DB853E2797F630F1 /* Pods-arcgisPod_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		981A85C5DB30183969BA20CCB440C8F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C01A27599C4748BFF32E1D4A8ED84BA /* arcgisPod-dummy.m in Sources */,
+				103F387DDC49B0E5F93D28E35A4B8D96 /* Colours.m in Sources */,
+				1B7C3BDCE3742F311A99C6E5ADAC5E63 /* CRToastConfig.m in Sources */,
+				C2F64DADDCEAA5A1B47C6D65DA8A6B2D /* CRToastManager.m in Sources */,
+				C4C9969A0A13E7B9879FD845CA5D829D /* CRToastView.m in Sources */,
+				29C8D9BCA9207FDD4C73E1B41B2F8E76 /* CRToastViewController.m in Sources */,
+				62617F859E6B1D675F74D280006ADE3D /* CRToastWindow.m in Sources */,
+				38E1DE495EF4D404007A690A365212DB /* DDButtonView.m in Sources */,
+				CD05818EE53920F9308A8AA113A7A816 /* NSObject+XKController.m in Sources */,
+				3819176BD5F0A938CF3622321EB9C53A /* PrintBeautifulLog.m in Sources */,
+				30E4F3116D3B1F3E28927AE8F70D779D /* ReplaceMe.m in Sources */,
+				F3EA933A281C92791E16BCFC35FB15A2 /* Sunshine_PrefixHeader.pch in Sources */,
+				A2CCE39624B77A4D0C0BD510BF09D6DD /* tianditu.json in Sources */,
+				CDB64B95A0F44F000C92DA9E6671D1D5 /* TianDiTuLayer.m in Sources */,
+				D25BEDFBDF5C063ACFEA7CFD0B0B7917 /* TianDiTuLayerInfo.m in Sources */,
+				AA2A1573A60EF20F9B8101176B106E21 /* UIColor+RGBA.m in Sources */,
+				1F0D06F413F68F56E461A1D3D9E97888 /* YGNStandardTaskViewController+drawAction.m in Sources */,
+				4E0DFCFB2A1B52D8EB74B5520744AFC0 /* YGNStandardTaskViewController+setUpEditorStyle.m in Sources */,
+				A1EAA5C4BAF356659405C32E311B4B80 /* YGNStandardTaskViewController+SetupSubviews.m in Sources */,
+				2BAF6819842D4B30E348B37BD2495CA0 /* YGNStandardTaskViewController.m in Sources */,
+				A99E3D7B13B5F70EBA77DB81C40B623B /* YNBGeometryUtil.m in Sources */,
+				3C5E338AE9718517AD3D88784B62D45A /* YNBLayerModel.m in Sources */,
+				C9DF6A1656507C6A152926CBB3987023 /* YNBMapItemView.m in Sources */,
+				549EFB6AB6883942CBABCE1F38626E60 /* YNBMapToolsView.m in Sources */,
+				031F220228D7C4CAA476FA729DE43337 /* YNBStandardTaskLengendView.m in Sources */,
+				A018AD7E94438A34AE0EB871C56D81BF /* YNBStandardToolView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AE96211668DD4474ED8E73ECA092905 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1FEC39836045953ACEC3874B1012A4F /* Pods-arcgisPod_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20EF0B09457566B5F87B9EF37DB3A7BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = arcgisPod;
+			target = 84BDD0289EC552A9883CD0BBBD37CD49 /* arcgisPod */;
+			targetProxy = 31F266A2FEBE6AC5E37A92C0D25C0A42 /* PBXContainerItemProxy */;
+		};
+		E58DE33C9E45E9E5A009477FAC8B2173 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-arcgisPod_Example";
+			target = CABDB1AC2BED030E1BD33CD2FB7007C3 /* Pods-arcgisPod_Example */;
+			targetProxy = 7DC668260C68A188186458B0E2AE6F92 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D5C5614758888658C72BF0ACA6F983D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E14378E839BFBEFDAB23235CC65A866 /* Pods-arcgisPod_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-arcgisPod_Example/Pods-arcgisPod_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-arcgisPod_Example/Pods-arcgisPod_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7982ABF6F53B08F701309BFCFFCBDB7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DF47236E320585A599E74669605565B /* arcgisPod.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/arcgisPod/arcgisPod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/arcgisPod/arcgisPod-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/arcgisPod/arcgisPod.modulemap";
+				PRODUCT_MODULE_NAME = arcgisPod;
+				PRODUCT_NAME = arcgisPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A20840B30442511F92E968BEE7312CDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DF47236E320585A599E74669605565B /* arcgisPod.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/arcgisPod/arcgisPod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/arcgisPod/arcgisPod-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/arcgisPod/arcgisPod.modulemap";
+				PRODUCT_MODULE_NAME = arcgisPod;
+				PRODUCT_NAME = arcgisPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C5F1C5D4E1E78A743DF0E47FB7DCEEE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6711CC04AB66B01B278D3C6C965F696 /* Pods-arcgisPod_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-arcgisPod_Example/Pods-arcgisPod_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-arcgisPod_Example/Pods-arcgisPod_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DCC0EE99A386E14A7935A5C68A500E92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8DE4DF032B419EF69D374DD615D8373 /* Pods-arcgisPod_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-arcgisPod_Tests/Pods-arcgisPod_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-arcgisPod_Tests/Pods-arcgisPod_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E24107B5FE4AFDBAEB656C9D9EB29872 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2879C56CAB0EA3EA43F260377715CDA /* Pods-arcgisPod_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-arcgisPod_Tests/Pods-arcgisPod_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-arcgisPod_Tests/Pods-arcgisPod_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		179EC09E9EE4C0ECFE40EBA4D6B04B72 /* Build configuration list for PBXNativeTarget "Pods-arcgisPod_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5F1C5D4E1E78A743DF0E47FB7DCEEE9 /* Debug */,
+				1D5C5614758888658C72BF0ACA6F983D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8948C113AF29D1EEA883001D53FFE64 /* Build configuration list for PBXNativeTarget "Pods-arcgisPod_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCC0EE99A386E14A7935A5C68A500E92 /* Debug */,
+				E24107B5FE4AFDBAEB656C9D9EB29872 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E01AEBA098159F6F64D82F9B9448D4E0 /* Build configuration list for PBXNativeTarget "arcgisPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A20840B30442511F92E968BEE7312CDF /* Debug */,
+				7982ABF6F53B08F701309BFCFFCBDB7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
